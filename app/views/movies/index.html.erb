@@ -1,0 +1,11 @@
+<h1>hello</h1>
+<% @movies.each do |movie| %>
+  <div>
+    <%= movie.name %><br />
+    <%= movie.year %><br />
+    <%= movie.description %><br />
+    <%= movie.image_url %><br />
+    <%= movie.is_showing %><br />
+    <img src="https://picsum.photos/210/143" alt="">
+  </div>
+<% end %>
